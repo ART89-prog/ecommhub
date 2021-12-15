@@ -1,0 +1,228 @@
+@media (max-width: 1023px) {
+    ul.menu > li > a {
+        margin-right: 27px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    header {
+        margin-bottom: 0;
+    }
+    .intro_title {
+        font-size: 30px;
+        line-height: 37px;
+        margin-bottom: 20px;
+        max-width: 433px;
+        width: 100%;
+    }
+    .intro_text {
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 33px;
+        max-width: 345px;
+    }
+    .about {
+        padding: 50px 0 40px;
+    }
+    .title {
+        font-size: 36px;
+        line-height: 47px;
+        margin-bottom: 38px;
+    }
+    .about_items {
+        margin-left: -16px;
+    }
+    .about_items > * {
+        width: calc(100%/3 - 16px);
+        margin-left: 16px;
+        padding: 16px;
+    }
+    .about_item-icon {
+        height: 199px;
+    }
+    .about_item-text {
+        font-size: 18px;
+        line-height: 23px;
+        margin-top: 46px;
+    }
+    .advantages {
+        padding: 50px 0 40px;
+    }
+    .advantages_items {
+        padding: 50px 37px;
+    }
+    .advantages_item-image {
+        width: 50%;
+    }
+    .advantages_item:nth-child(2n) .advantages_item-image {
+        width: 50%;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .advantages_item:nth-child(2n) .advantages_item-description {
+        margin-right: 30px;
+    }
+    .advantages_item-description br {
+        display: none;
+    }
+    .advantages_item:nth-child(3) .advantages_item-image {
+        width: 50%;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .advantages_item-text br {
+        display: none;
+    }
+    .advantages_item-text {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .advantages_item-title {
+        font-size: 28px;
+        line-height: 33px;
+        margin-bottom: 15px;
+    }
+    .cases {
+        padding: 50px 0 45px;
+    }
+    .cart {
+        padding: 66px 0 20px;
+    }
+    .cart_box {
+        padding: 49px 57px 109px;
+    }
+    .cart_item-procent:before {
+        width: 150px;
+        height: 150px;
+    }
+    .cart_item-procent {
+        font-size: 35px;
+        line-height: 41px;
+        padding: 40px 5px;
+    }
+    .cart_item-title {
+        font-size: 20px;
+        line-height: 23px;
+        margin-top: 30px;
+    }
+    .cart_item-title br {
+        display: none;
+    }
+    .intro_wrap {
+        max-width: 421px;
+    }
+    .cart_mechanics-title {
+        font-size: 28px;
+        line-height: 33px;
+        margin-bottom: 33px;
+    }
+    .cart_mechanics-text br {
+        display: none;
+    }
+    .cart_mechanics-discount {
+        padding: 102px 49px 0;
+    }
+    .optimization_item-title {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .optimization_item-title br {
+        display: none;
+    }
+    .optimization_item-procent:before {
+        width: 150px;
+        height: 150px;
+    }
+    .optimization_item-procent {
+        font-size: 35px;
+        line-height: 41px;
+        padding: 35px 5px;
+    } 
+    .optimization_box {
+        padding: 49px 57px 109px;
+    }
+    .optimization_mechanics-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+    .optimization_mechanics-image {
+        margin-top: 0;
+        margin-bottom: 62px;
+    }
+    .optimization_mechanics-title {
+        font-size: 28px;
+        line-height: 33px;
+        margin-bottom: 44px;
+    }
+    .optimization {
+        padding: 35px 0 77px;
+    }
+    .steps {
+        padding: 90px 0 90px;
+    }
+    .steps_items > * {
+        margin-left: 16px;
+        margin-bottom: 16px;
+        width: calc(100%/3 - 16px);
+        padding: 57px 10px 35px;
+    }
+    .steps_items {
+        margin-left: -16px;
+        margin-bottom: -16px;
+    }
+    .steps_item-number:before {
+        width: 100px;
+        height: 100px;
+    }
+    .steps_item-title {
+        margin-top: 28px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .steps_item-text {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 12px;
+    }
+    .form-block_wrap::before {
+        width: 75px;
+        height: 122px;
+        top: -120px;
+        left: 330px;
+        background: url(../image/arrow2.svg);
+        background-size: cover;
+    }
+    .form-block .container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .form-block .field button {
+        margin-top: 12px;
+    }
+    .form-block_image {
+        margin-top: 28px;
+    }
+    .form-block {
+        padding: 45px 0 37px;
+    }
+    .footer_logo {
+        margin-right: 30px;
+    }
+    .footer_text {
+        font-size: 13px;
+        max-width: 314px;
+        width: 100%;
+    }
+    .footer_links-title {
+        margin-bottom: 9px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .footer_links a {
+        font-size: 13px;
+    }
+    .steps_item-number {
+        font-size: 70px;
+        line-height: 82px;
+    }
+   
+}
