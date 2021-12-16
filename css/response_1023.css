@@ -1,9 +1,5 @@
 @media (max-width: 1023px) {
-    ul.menu > li > a {
-        margin-right: 23px;
-        font-size: 15px;
-        line-height: 18px;
-    }
+ 
     header {
         margin-bottom: 0;
     }

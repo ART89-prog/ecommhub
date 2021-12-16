@@ -128,6 +128,7 @@ html.custom_scroll {
   scrollbar-width: thin;
 }
 body {
+  padding-top: 100px;
   color: #000;
   font-family: "Rubik";
   font-weight: 500;
@@ -268,6 +269,22 @@ ul.menu > li:last-child > a {
 }
 ul.menu > li > a:hover {  
   color: #335FFF;;
+}
+
+.header_fixed {
+  position: fixed;
+  -webkit-animation: moveDown .5s;
+  animation: moveDown .5s;
+  background: #fff;
+}
+.header_fixed .link {
+  width: 223px;
+  height: 39px;
+  line-height: 39px;
+  color: #fff;
+}
+.header_fixed .link:hover {
+  color: #fff;
 }
 
 /*-------------------
@@ -1050,12 +1067,15 @@ header .menu_btn.active span:after {
   background: #000;
 }
 
-@media (max-width: 767px)
+@media (max-width: 1023px)
 {
   header .menu_btn {
     display: block;
     border: none;
     background: transparent;
+  }
+  .header_fixed .link {
+    display: none;
   }
   header {
     position: fixed;
@@ -1081,8 +1101,8 @@ header .menu_btn.active span:after {
     text-align: center;
   }
   ul.menu > li > a {
-    margin: 13px 0;
-    font-weight: 800;
+    margin: 26px 0;
+    font-weight: 400;
     padding-left: 20px;
     font-size: 25px;
     line-height: 29px;

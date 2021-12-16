@@ -5,45 +5,6 @@ $(() => {
 	// Установка ширины стандартного скроллбара
 	$(':root').css('--scroll_width', widthScroll() + 'px')
 
-	
-	// Аккордeон
-	$(".faq_accordeon dl").click(function() {
-		$(this).find("dd").slideToggle();
-		$(this).find("dt").toggleClass("active")
-	});
-
-
-    // Табы
-	$(function() {
-		var tab = $('#tabs .tabs-items > div'); 
-		tab.hide().filter(':first').show(); 
-		
-		// Клики по вкладкам.
-		$('#tabs .tabs-nav a').click(function(){
-			tab.hide(); 
-			tab.filter(this.hash).show(); 
-			$('#tabs .tabs-nav a').removeClass('active');
-			$(this).addClass('active');
-			return false;
-		}).filter(':first').click();
-	 
-		// Клики по якорным ссылкам.
-		$('.tabs-target').click(function(){
-			$('#tabs .tabs-nav a[href=' + $(this).data('id')+ ']').click();
-		});
-	});
-
-	$('body').on('click', '.modal_link', function (e) {
-		e.preventDefault()
-		$.fancybox.close(true)
-		$.fancybox.open({
-			src: $(this).data('content'),
-			type: 'inline',
-			touch: false
-		})
-	})
-
-
 	// Моб. версия
 	fiestResize = false
 
@@ -53,12 +14,7 @@ $(() => {
 		fiestResize = true
 	}
 
-
-
-
 })
-
-
 
 $(window).resize(() => {
 	// Моб. версия
