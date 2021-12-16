@@ -311,6 +311,9 @@
         width: 70%;
         margin: 0 auto 25px;
     }
+    body {
+        padding-top: 25px;
+    }
 
 
 

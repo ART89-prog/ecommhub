@@ -39,6 +39,15 @@ $(() => {
 })
 
 
+$('.header_fixed .link').fadeOut(); //скрываем кнопку
+$(window).scroll(function () {
+    if ($(this).scrollTop() > 200) { // при прокрутке страницы на 200 пикселей вниз
+		$('.header_fixed .link').fadeIn(500);   // отображаем кнопку
+} 
+	else {
+		$('.header_fixed .link').fadeOut(); // в противном случае скрываем
+	}
+});
 
 
 

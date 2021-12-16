@@ -278,6 +278,9 @@ ul.menu > li > a:hover {
   background: #fff;
 }
 .header_fixed .link {
+  display: none;
+}
+.header_fixed .link {
   width: 223px;
   height: 39px;
   line-height: 39px;
@@ -1074,9 +1077,7 @@ header .menu_btn.active span:after {
     border: none;
     background: transparent;
   }
-  .header_fixed .link {
-    display: none;
-  }
+
   header {
     position: fixed;
     background: #fff;
@@ -1086,7 +1087,7 @@ header .menu_btn.active span:after {
   .menu {
     position: fixed;
     z-index: 100;   
-    top: 75px;
+    top: 70px;
     left: 0;
     display: block;
     width: 100%;

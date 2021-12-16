@@ -1,5 +1,8 @@
 
 @media (max-width: 1415px) {
+    ul.menu > li > a {
+        margin-right: 30px;
+      }
     .footer_logo {
         margin-left: 0;
     }
