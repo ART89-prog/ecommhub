@@ -1060,7 +1060,7 @@ header .menu_btn.active span:after {
   header {
     position: fixed;
     background: #fff;
-    top: 0;
+    top: -7px;
     width: 100%;
   }  
   .menu {

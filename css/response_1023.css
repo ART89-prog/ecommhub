@@ -1,11 +1,17 @@
 @media (max-width: 1023px) {
     ul.menu > li > a {
-        margin-right: 27px;
+        margin-right: 23px;
         font-size: 15px;
         line-height: 18px;
     }
     header {
         margin-bottom: 0;
+    }
+    header .logo {
+        width: 142px;
+    }
+    .intro {
+        padding: 72px 0 43px;
     }
     .intro_title {
         font-size: 30px;
@@ -28,6 +34,9 @@
         line-height: 47px;
         margin-bottom: 38px;
     }
+    .about_item-icon img {
+        height: 150px;
+    }
     .about_items {
         margin-left: -16px;
     }
@@ -42,13 +51,13 @@
     .about_item-text {
         font-size: 18px;
         line-height: 23px;
-        margin-top: 46px;
+        margin-top: -8px;
     }
     .advantages {
         padding: 50px 0 40px;
     }
     .advantages_items {
-        padding: 50px 37px;
+        padding: 70px 26px;
     }
     .advantages_item-image {
         width: 50%;
@@ -154,7 +163,7 @@
         margin-bottom: 44px;
     }
     .optimization {
-        padding: 35px 0 77px;
+        padding: 35px 0 83px;
     }
     .steps {
         padding: 90px 0 90px;
@@ -174,7 +183,7 @@
         height: 100px;
     }
     .steps_item-title {
-        margin-top: 28px;
+        margin-top: 37px;
         font-size: 18px;
         line-height: 21px;
     }
@@ -202,10 +211,11 @@
         margin-top: 28px;
     }
     .form-block {
-        padding: 45px 0 37px;
+        padding: 51px 0 37px;
     }
     .footer_logo {
-        margin-right: 30px;
+        margin-right: 37px;
+        width: 156px;
     }
     .footer_text {
         font-size: 13px;
@@ -223,6 +233,36 @@
     .steps_item-number {
         font-size: 70px;
         line-height: 82px;
+    }
+    .cart_title   {
+        margin-bottom: 65px;
+    }
+    .cart_box {
+        margin-bottom: 60px;
+    }
+    .cart_mechanics-title {
+        margin-bottom: 25px;
+    }
+    .cart_mechanics-discount {
+        margin: 43px auto 56px;
+    }
+    .optimization_box {
+        margin-bottom: 65px;
+    }
+    .optimization_mechanics-desc {
+        margin-left: 127px;
+        margin-right: 82px;
+    }
+    .steps_title {
+        margin-bottom: 21px;
+    }
+    .form-block_title {
+        text-align: center;
+        font-size: 38px;
+    }
+    .form-block_image {
+        margin-top: 29px;
+        width: 66%;
     }
    
 }

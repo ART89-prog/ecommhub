@@ -1,6 +1,14 @@
 @media (max-width: 479px) {
 
-    
+    .cart_mechanics-discount {
+        padding: 48px 10px 0;
+    }
+    .cart_mechanics-discount-text {
+        margin-bottom: 18px;
+    }
+    .form-block_wrap::before {
+        left: 210px;
+    }
     
 
     

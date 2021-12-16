@@ -1,6 +1,6 @@
 @media (max-width: 767px) {
     .intro {
-        padding: 110px 0 50px;
+        padding: 93px 0 29px;
     }
     .intro .container {
         flex-direction: column;
@@ -99,6 +99,7 @@
     }
     .optimization_mechanics-desc {
         margin-left: 0;
+        margin-right: 0;
     }
     .steps_items {
         margin-left: 0;
@@ -136,6 +137,181 @@
     .footer_logo {
         margin-right: 0;
     }
+    .advantages_item:nth-child(2n) .advantages_item-description {
+        margin-right: 0px;
+    }
+    .cart_mechanics-discount-text {
+        font-size: 27px;
+        line-height: 36px;
+        margin-bottom: 36px;
+    }
+    .cart_mechanics-discount .link {
+        height: 67px;
+        line-height: 67px;
+    }
+    .cart_mechanics-discount {
+        margin: 96px auto 48px;
+    }
+    .cart_mechanics-discount::before {
+        background-size: contain;
+    }
+    .cart_mechanics-discount:after {
+        width: 76px;
+        height: 84px;
+        right: 28px;
+        top: -92px;
+        background-size: cover;
+    }
+    header .logo {
+        width: 134px;
+    }
+    .link {
+        font-size: 16px;
+        line-height: 49px;
+        height: 49px;
+        width: 228px;
+    }
+    .about_item-icon img {
+        height: auto;
+    }
+    .about_item-text {
+        margin-top: 46px;
+    }
+    .about_items > * {
+        padding: 16px 35px 24px;
+        margin-bottom: 40px;
+    }
+    .about {
+        padding: 50px 0 25px;
+    }
+    .advantages {
+        padding: 0px 0 40px;
+    }
+    .advantages_items {
+        padding: 20px 20px 50px;
+    }
+    .advantages_item-title {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 18px;
+    }
+    .advantages_item-text {
+        font-size: 16px;
+        line-height: 128%;
+    }
+    .cases {
+        padding: 35px 0 45px;
+    }
+    .cases_text,
+    .cases_text a {
+        font-size: 16px;
+        line-height: 128%;
+    }
+    .cases_title {
+        margin-bottom: 13px;
+    }
+    .cart {
+        padding: 39px 0 20px;
+    }
+    .cart_title {
+        margin-bottom: 28px;
+    }
+    .cart_box-title,
+    .optimization_box-title {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 35px;
+    }
+    .cart_box,
+    .optimization_box {
+        padding: 52px 25px 0px;
+        margin-bottom: 80px;
+    }
+    .cart_items > *,
+    .optimization_items > * {
+        margin-bottom: 60px;
+    }
+    .cart_item-title {
+        margin-top: 39px;
+    }
+    .cart_mechanics-title {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 26x;
+    }
+    .cart_mechanics-text {
+        font-size: 16px;
+        line-height: 128%;
+    }
+    .optimization_title {
+        margin-bottom: 35px;
+    }
+    .optimization_mechanics-text {
+        font-size: 16px;
+        line-height: 128%;
+        margin-bottom: 24px;
+    }
+    .optimization_mechanics-list {
+        font-size: 16px;
+        line-height: 128%;        
+    }
+    .optimization_mechanics-list li {
+        margin-bottom: 24px;
+    }
+    .optimization_mechanics-list li:before {
+        top: 6px;
+        left: 4px;
+    }
+    .optimization {
+        padding: 35px 0 60px;
+    }
+    .steps {
+        padding: 64px 0 90px;
+    }
+    .steps_title {
+        margin-bottom: 10px;
+    }
+    .steps_items > * {
+        padding: 63px 30px 57px;
+    }
+    .steps_item-title {
+        margin-top: 46px;
+    }
+    .form-block_wrap {
+        width: 100%;
+    }
+    .form-block_title {
+        text-align: start;
+    }
+    footer {
+        padding: 55px 0;
+    }
+    .footer_links-title {
+        margin-bottom: 16px;
+        font-size: 20px;
+    }
+    .footer_links a {
+        font-size: 15px;
+    }
+    .footer_logo {
+        width: 204px;
+    }
+    .footer_text {
+        font-size: 15px;
+        width: 100%;
+    }
+    .advantages_item:nth-child(2n) .advantages_item-text {
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0;
+    }
+    .advantages_item:nth-child(3) .advantages_item-image,
+    .advantages_item:nth-child(2n) .advantages_item-image,
+    .advantages_item-image {
+        width: 70%;
+        margin: 0 auto 25px;
+    }
+
 
 
 
